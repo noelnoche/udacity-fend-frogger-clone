@@ -1,0 +1,18 @@
+{
+  "name": "udacity_fend_project_03",
+  "description": "Udacity Project 3: Frogger Clone",
+  "version": "2.0.0",
+  "private": true,
+  "author": "Noel Noche",
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-contrib-concat": "^0.5.1",
+    "grunt-contrib-cssmin": "^0.13.0",
+    "grunt-contrib-htmlmin": "^0.4.0",
+    "grunt-contrib-jshint": "^0.11.2",
+    "grunt-contrib-uglify": "^0.9.1"
+  },
+  "dependencies": {
+    "jquery": "^2.1.4"
+  }
+}
