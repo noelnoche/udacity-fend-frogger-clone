@@ -10,7 +10,7 @@ The goal of this **[Udacity](https://www.udacity.com/)** project is to create a 
 
 Link
 ---
-Access the game **[here](http://noel7847.github.io/udacity-fend-project-03)**.
+Access the game **[here](http://genkibit.github.io/udacity-fend-frogger-clone/)**.
 
 
 How To Play
@@ -31,8 +31,8 @@ Scoring
 
 Credits
 ---
-+ Game assets and engine by Udacity.
-+ Game design and coding by Noel Noche.
++ Original game assets and engine by Udacity.
++ Game designed and coded by Noel Noche.
 + Original cartridge design by Atari, Inc.
 + Game BGM:
 	- "Daily Beetle" Kevin MacLeod **[incompetech.com](incompetech.com)**
@@ -43,7 +43,7 @@ Credits
 
 License
 ---
-Code provided under an **[MIT license](http://opensource.org/licenses/MIT)**.
+Read LICENSE.txt file.
 
 
 Changelog
