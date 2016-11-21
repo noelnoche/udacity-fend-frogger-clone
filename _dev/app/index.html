@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="Noel Noche">
+  <meta name="description" content="Udacity Front-end Nanodegree Program: Frogger Clone (Bug Frenzy). Completed by Noel Noche on March 8, 2015">
+
+  <link rel="shortcut icon" href="assets/icons/favicon.ico">
+  <link rel="apple-touch-icon" sizes="152x152" href="assets/icons/apple-touch-icon-ipad-retina.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="assets/icons/apple-touch-icon-iphone-retina.png">
+
+  <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  <!-- https://github.com/aFarkas/html5shiv -->
+  <!-- https://github.com/scottjehl/Respond -->
+  <!--[if lt IE 9]>
+		  <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+		  <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+			<script>window.html5 || document.write('<script src="js/vendor/html5shiv.js"><\/script>');</script>
+		<![endif]-->
+
+  <!-- build:css inline -->
+  <link rel="stylesheet" href="../bower_components/normalize-css/normalize.css">
+  <link rel="stylesheet" href="css/main.css">
+  <!-- /build -->
+
+  <title>Noel Noche | App Portfolio | Bug Frenzy</title>
+</head>
+
+<body>
+  <!--[if lte IE 9]>
+      <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
+
+  <!-- Alert Messages -->
+  <div class="hidden" id="notifier"></div>
+	
+  <div class="page-wrapper">
+    <section>
+      <div class="header">
+        <header class="sr-only">
+          <h1>Udacity Front-end Nanodegree Program</h1>
+          <h2>Frogger Clone</h2>
+        </header>
+      </div>
+
+      <main>
+        <div class="main">
+
+          <!-- Left and right HUD panels -->
+          <div class="side-panels">
+            <div class="left-panel">
+              <div id="game-score">Score 0</div>
+              <div class="game-audio">
+                <input id="checkbox-sound" type="checkbox" />
+                <label id="soundfx" for="checkbox-sound">Sound</label><br>
+                <input id="checkbox-music" type="checkbox" />
+                <label id="bgm" for="checkbox-music">Music</label>
+              </div>
+            </div>
+            <div class="right-panel">
+              <div id="level-indicator">Level 1</div>
+              <div id="game-time">Time 180</div>
+              <ul id="lives"></ul>
+            </div>
+          </div>
+
+          <!-- Canvas container -->
+          <div id="game-window"></div>
+        </div>
+      </main>
+    </section>
+    <!-- END: page section -->
+
+    <footer>
+      <div class="footer">
+        <p>&#169; 2015, 2016 Noel Noche</p>
+        <p><a href="xxx" target="_blank">Report an issue</a></p>
+      </div>
+    </footer>
+  </div>
+
+  <!-- Audio files -->
+  <audio id="ouch">
+			<source src="assets/audio/sfx_collision.mp3" type="audio/mp3">
+			<source src="assets/audio/sfx_collision.ogg" type="audio/ogg">
+		</audio>
+  <audio id="blip">
+			<source src="assets/audio/sfx_blip.mp3" type="audio/mp3">
+			<source src="assets/audio/sfx_blip.ogg" type="audio/ogg">
+		</audio>
+  <audio id="background-music-1">
+			<source src="assets/audio/bgm_daily_beetle.mp3" type="audio/mp3">
+			<source src="assets/audio/bgm_daily_beetle.ogg" type="audio/ogg">
+		</audio>
+  <audio id="background-music-2">
+			<source src="assets/audio/bgm_vivacity.mp3" type="audio/mp3">
+			<source src="assets/audio/bgm_vivacity.ogg" type="audio/ogg">
+		</audio>
+
+  <!-- build:[src] js/ -->
+  <script src="../bower_components/jquery/dist/jquery.min.js"></script>
+  <script src="js/bundle.js"></script>
+  <!-- /build -->
+</body>
+
+</html>

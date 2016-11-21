@@ -1,0 +1,13 @@
+{
+  "name": "bug-frenzy",
+  "description": "Udacity Project 3: Frogger Clone",
+  "authors": [
+    "Noel Noche < contact@hellonoel.com >"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/genkibit/udacity-fend-frogger-clone",
+  "dependencies": {
+    "jquery": "^3.1.1",
+    "normalize-css": "^5.0.0"
+  }
+}
