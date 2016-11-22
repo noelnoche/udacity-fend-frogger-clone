@@ -48,6 +48,19 @@ module.exports = function(grunt) {
       }
     },
 
+    // Starts a connect web server
+    // npmjs.com/package/grunt-contrib-connect
+    // https://funkycold.wordpress.com/2015/02/28/learning-grunt-grunt-contrib-connect/
+    connect: {
+      server: {
+        options: {
+          port: 8000,
+          hostname: '0.0.0.0',
+          keepalive: true
+        }
+      }
+    },
+
     // Duplicates files and folders
     // npmjs.com/package/grunt-contrib-copy
     copy: {
@@ -183,6 +196,7 @@ module.exports = function(grunt) {
 
   /** DEPENDENT PLUGINS **/
   grunt.loadNpmTasks('grunt-browserify');
+  grunt.loadNpmTasks('grunt-contrib-connect');
   grunt.loadNpmTasks('grunt-contrib-clean');
   grunt.loadNpmTasks('grunt-contrib-concat');
   grunt.loadNpmTasks('grunt-contrib-copy');
