@@ -9,7 +9,7 @@ The goal of this **[Udacity](https://www.udacity.com/)** project is to create a 
 
 Link
 ---
-Access the game **[here](http://genkibit.github.io/udacity-fend-frogger-clone/)**.
+Access the game **[here](http://noelnoche.github.io/udacity-fend-frogger-clone/)**.
 
 
 How To Play
@@ -42,7 +42,7 @@ Credits
 
 License
 ---
-Code provided under an **[MIT license](https://github.com/genkibit/udacity-fend-frogger-clone/blob/gh-pages/LICENSE.md)**
+Code provided under an **[MIT license](https://github.com/noelnoche/udacity-fend-frogger-clone/blob/gh-pages/LICENSE.md)**
 
 
 Changelog
