@@ -12,7 +12,7 @@ programming that makes for cleaner, maintainable code, especially when dealing w
 
 App Link
 ---
-http://noelnoche.github.io/udacity-fend-frogger-clone/
+http://noelnoche.github.io/udacity-fend-frogger-clone
 
 
 How To Play
