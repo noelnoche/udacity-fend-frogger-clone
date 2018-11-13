@@ -9,7 +9,7 @@ Bug Frenzy is a basic clone of the classic game Frogger. It implements inheritan
 
 App Link
 ---
-**<http://noelnoche.github.io/memory-exercises/>**
+**<https://noelnoche.github.io/udacity-fend-frogger-clone/>**
 
 
 How To Play
@@ -45,4 +45,4 @@ Credits
 
 License
 ---
-Code is provided under an **[MIT license](https://github.com/noelnoche/memory-exercises/blob/gh-pages/LICENSE.md)**.
+Code is provided under an **[MIT license](https://github.com/noelnoche/udacity-fend-frogger-clone/blob/gh-pages/README.md)**.
