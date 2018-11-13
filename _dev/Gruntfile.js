@@ -57,15 +57,15 @@ module.exports = function(grunt) {
     // Starts a connect web server
     // npmjs.com/package/grunt-contrib-connect
     // https://funkycold.wordpress.com/2015/02/28/learning-grunt-grunt-contrib-connect/
-    // connect: {
-    //   server: {
-    //     options: {
-    //       port: 8000,
-    //       hostname: '0.0.0.0',
-    //       keepalive: true
-    //     }
-    //   }
-    // },
+    connect: {
+      server: {
+        options: {
+          port: 8000,
+          hostname: '0.0.0.0',
+          keepalive: true
+        }
+      }
+    },
     
     // Duplicates files and folders
     // npmjs.com/package/grunt-contrib-copy
