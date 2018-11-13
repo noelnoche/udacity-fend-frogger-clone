@@ -4,7 +4,14 @@ Bug Frenzy
 
 Description
 ---
-Bug Frenzy is a basic clone of the classic game Frogger. It implements inheritance patterns commonly used in JavaScript programming. Inheritance is an important concept of object-oriented programming that makes for cleaner, maintainable code, especially when dealing with very large applications.
+Bug Frenzy is a basic clone of the classic game Frogger. It implements inheritance patterns commonly used in JavaScript programming. Inheritance is an important concept of object-oriented programming that makes for cleaner, maintainable code, especially when working with other developers on large applications.
+
+This project also features used in web-based animation and game design.
+  1. A game engine using `RequestAnimationFrame` and delta time
+  2. Game modules for randomizing and adding behaviors to game entities
+  3. Built-in tile-mapping engine
+  4. Sound effects and background music using HTML5 Audio
+  5. An HUD that shows level, score, timer, lives and audio toggle button
 
 
 App Link
