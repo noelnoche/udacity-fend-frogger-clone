@@ -45,4 +45,4 @@ Credits
 
 License
 ---
-Code is provided under an **[MIT license](https://github.com/noelnoche/udacity-fend-frogger-clone/blob/gh-pages/README.md)**.
+Code is provided under an **[MIT license](https://github.com/noelnoche/udacity-fend-frogger-clone/blob/gh-pages/LICENSE.md)**.
