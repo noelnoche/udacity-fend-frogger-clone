@@ -31,16 +31,16 @@ Scoring
 
 | Action                        | Points |
 |-------------------------------|:------:|
-| Each second remaining                |    1   |
-| Blue Gem           |   5   |
-| Green Gem |   10   |
-| Orange Gem |   15   |
-| Heart |   Extra life  |
+| Each second remaining         |   1    |
+| Blue Gem                      |   5    |
+| Green Gem                     |   10   |
+| Orange Gem                    |   15   |
+| Heart                         |   Extra life  |
 
 
 Credits
 ---
-+ Original game assets and engine by Udacity.
++ Original game assets and engine by **[Udacity](https://www.udacity.com/)**.
 + Game designed and coded by Noel Noche.
 + Original cartridge design by Atari, Inc.
 + Game BGM:
