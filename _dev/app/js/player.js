@@ -1,7 +1,7 @@
 /**
  * @fileOverview Player-specific variables and functions
  * @author Noel Noche
- * @version 3.0.0
+ * @version 4.0.0
  */
 
 // Used for selecting a new character each time the current one reaches the top

@@ -1,7 +1,7 @@
 /**
  * @fileOverview The game engine puts all the pieces together and runs the game
  * @authors Noel Noche
- * @version 3.0.0
+ * @version 4.0.0
  */
 
 // http://paulirish.com/2011/requestanimationframe-for-smart-animating/

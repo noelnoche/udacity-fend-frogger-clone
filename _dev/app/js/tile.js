@@ -1,7 +1,7 @@
 /**
  * @fileOverview All tile-specific variables and functions are organized here
  * @author Noel Noche
- * @version 3.0.0
+ * @version 4.0.0
  */
 
 // Holds tile instances used when building the game board

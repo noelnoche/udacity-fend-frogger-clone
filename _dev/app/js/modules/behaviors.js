@@ -1,7 +1,7 @@
 /**
  * @fileOverview A nodeJS module for applying custom behaviors to game entities
  * @author Noel Noche
- * @version 3.0.0
+ * @version 4.0.0
  */
  
 'use strict';

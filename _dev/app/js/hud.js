@@ -1,7 +1,7 @@
 /**
  * @fileOverview modules, top-level variables, hud and audio code is organized here.
  * @author Noel Noche
- * @version 3.0.0
+ * @version 4.0.0
  */
  
  'use strict';

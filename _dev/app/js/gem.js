@@ -1,7 +1,7 @@
 /**
  * @fileOverview Gem-specific code
  * @author Noel Noche
- * @version 3.0.0
+ * @version 4.0.0
  */
 
 // Holds the gem instance produced by initialize_objects

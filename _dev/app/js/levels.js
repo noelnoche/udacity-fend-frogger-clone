@@ -1,7 +1,7 @@
 /**
  * @fileOverview Levels and game grid layout stuff
  * @author Noel Noche
- * @version 3.0.0
+ * @version 4.0.0
  */
 
 // Holds current level map
