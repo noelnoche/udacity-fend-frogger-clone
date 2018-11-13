@@ -1,7 +1,7 @@
 /**
  * @fileOverview modules, top-level variables, hud and audio code is organized here.
  * @author Noel Noche
- * @version 4.0.0
+ * @version 3.0.0
  */
  
  'use strict';
@@ -132,6 +132,7 @@ function loadAudio() {
         soundEffects[obj.name] = obj.srcObj;
       }
       else if (obj.category === 'bgm') {
+        obj.srcObj.loop = true;
         bgMusic[obj.name] = obj.srcObj;
       }
       else {
