@@ -163,7 +163,7 @@ module.exports = function(grunt) {
         processors: [
           require('pixrem')(), // Adds fallbacks for rem units 
           require('autoprefixer')({
-            browsers: 'last 2 versions'
+            browserlist: 'last 2 versions'
           }) // Adds vendor prefixes 
         ]
       },
@@ -203,8 +203,8 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-contrib-htmlmin');
   grunt.loadNpmTasks('grunt-contrib-jshint');
   grunt.loadNpmTasks('grunt-contrib-uglify');
+  grunt.loadNpmTasks('grunt-contrib-uglify');
   grunt.loadNpmTasks('grunt-postcss');
-  grunt.loadNpmTasks('grunt-processhtml');
 
   /** CUSTOM TASKS **/
   grunt.registerTask('default', ['concat', 'browserify', 'jshint:afterconcat']);
