@@ -4,27 +4,27 @@
   "description": "A clone of the arcade classic Frogger",
   "dependencies": {},
   "devDependencies": {
-    "autoprefixer": "^6.5.1",
-    "grunt": "^1.0.1",
-    "grunt-browserify": "^5.0.0",
-    "grunt-cli": "^1.2.0",
-    "grunt-contrib-clean": "^1.0.0",
+    "autoprefixer": "^9.6.1",
+    "eslint": "^6.1.0",
+    "grunt": "^1.0.4",
+    "grunt-browserify": "^5.3.0",
+    "grunt-contrib-clean": "^2.0.0",
     "grunt-contrib-concat": "^1.0.1",
-    "grunt-contrib-connect": "^1.0.2",
+    "grunt-contrib-connect": "^2.0.0",
     "grunt-contrib-copy": "^1.0.0",
-    "grunt-contrib-cssmin": "^1.0.2",
-    "grunt-contrib-htmlmin": "^2.0.0",
-    "grunt-contrib-jshint": "^1.0.0",
-    "grunt-contrib-uglify": "^2.0.0",
-    "grunt-contrib-watch": "^1.0.0",
-    "grunt-postcss": "^0.8.0",
+    "grunt-contrib-cssmin": "^3.0.0",
+    "grunt-contrib-htmlmin": "^3.1.0",
+    "grunt-contrib-jshint": "^2.1.0",
+    "grunt-contrib-uglify": "^4.0.1",
+    "grunt-contrib-watch": "^1.1.0",
+    "grunt-postcss": "^0.9.0",
     "jshint-stylish": "^2.2.1",
-    "pixrem": "^3.0.2",
-    "postcss": "^5.2.5"
+    "pixrem": "^5.0.0",
+    "postcss": "^7.0.17"
   },
   "engines": {
-    "node": "^6.11.2",
-    "npm": "^3.10.10"
+    "node": "^12.6.0",
+    "npm": "^6.10.2"
   },
   "repository": {
     "type": "git",
