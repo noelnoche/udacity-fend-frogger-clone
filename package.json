@@ -1,0 +1,45 @@
+{
+  "name": "bug-frenzy",
+  "version": "1.0.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/noelnoche/udacity-fend-frogger-clone"
+  },
+  "description": "A variation of the classic arcade game Frogger",
+  "author": "Noel Noche <hellonoel.com>",
+  "private": true,
+  "license": "MIT",
+  "engines": {
+    "node": "^14.3.0",
+    "npm": "^6.14.5"
+  },
+  "scripts": {
+    "mk-concat": "node scripts/mk-concat-file.js",
+    "rm-concat": "node scripts/rm-concat-file.js",
+    "start": "npm run mk-concat && webpack-dev-server --config webpack.dev.js && npm run rm-concat",
+    "start:open": "npm run mk-concat && webpack-dev-server --config webpack.dev.js --open && npm run rm-concat",
+    "prebuild": "npm run mk-concat",
+    "postbuild": "npm run rm-concat",
+    "build": "webpack --config webpack.prod.js",
+    "eslint": "npx eslint scripts/*.js src/js/bundle.concat.js"
+  },
+  "devDependencies": {
+    "clean-webpack-plugin": "^3.0.0",
+    "copy-webpack-plugin": "^6.0.1",
+    "css-loader": "^3.5.3",
+    "eslint": "^7.0.0",
+    "file-loader": "^6.0.0",
+    "html-loader": "^1.1.0",
+    "html-webpack-plugin": "^4.3.0",
+    "mini-css-extract-plugin": "^0.9.0",
+    "optimize-css-assets-webpack-plugin": "^5.0.3",
+    "style-loader": "^1.2.1",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.11",
+    "webpack-dev-server": "^3.11.0",
+    "webpack-merge": "^4.2.2"
+  },
+  "dependencies": {
+    "jquery": "^3.5.1"
+  }
+}

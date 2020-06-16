@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="Noel Noche">
+    <meta name="description" content="Bug Frenzy is online clone of the classic arcade game Frogger. Get your players across the road while dodging a variety of bugs and obstacles through 15 levels of increasing difficulty. Source code is open-source and available for free on GitHub.">
+    
+    <link rel="shortcut icon" href="https://lh3.googleusercontent.com/BHFCb4CZ28XUKkeLw3iBL5YEqAOZAGZLHndRY_b058Ps5purKjWad1S2-EjbyBNYk9hPdC5jugkwGuxgDSrl92o952tUyTj2BLgXaFXi_lSQAHayAs0hwJ-HLiFN4N6eBIWM4_EuoxG8kG-ItyFEfKI-0osvy2X1lUJ2wNX3MBnjBKG09wBcZLFtJQK7X0av51Z0KBNvfevqX3LI5n6VBdM-aLGLGDOx-zbW90R4SlEheyEVNZg4YhUYCZwWt0eLfNkQXI6UiGvi6zOpQkboafUJo-fVZGO4NhXeATCvN3pyR2UCNtGfnO0wjnNStXhkqqK3dKMZmLmElBQuNVhJW_03cHznYwTQP3hbwKhSucWeH9vTAb2MB0aqQlJHUJTM96_bXzhnGL2_Nlb3kVqAlSlLyGgYjJY4saYc7mvg_ltBnsT3y3mbnFbvFpYm7FprJg-f8Cf7yh5MoLEXIPkS3qx40BFvwIA425G8PxRyD-qoJhaH0zYkKmaH__BHj3EX6PPjwtlgjJ9Mk05DqpRV-JTab1i-uC_CLHbNiMacp-ZGx1qmMMNmNo_ftMW_Ubw750ySIlCs4s9jLHsZXn7VE8PCLituwqKobkRXwFQrnhxOOjol6VTeVkYWpHPcZ3tqNhlNpxGjL7qB9jwshOqgl_Vcyd9sKTpAiKoWYzx6qTmYV34YwKHqz0Wj-7MPCQ=s500-no?authuser=0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css" integrity="sha256-oSrCnRYXvHG31SBifqP2PM1uje7SJUyX0nTwO2RJV54=" crossorigin="anonymous" />
+    
+    <title>Bug Frenzy | hellonoel.com</title>
+  </head>
+  <body>
+
+    <div class="alert">
+      <!--[if IE]>
+        <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+        <![endif]-->
+      <noscript class="alert__noscript">Sorry, you need JavaScript enabled to run this text.</noscript>
+      <div class="alert__notifier"></div>
+    </div>
+    <!--[if IE]>
+      <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+    <![endif]-->
+    
+    <noscript>Sorry, you need JavaScript enabled to run this application.</noscript>
+    <div class="notifier"></div>
+    
+    <div class="page-wrapper">
+      <header class="header sr-only">
+        <h1>Bug Frenzy!</h1>
+        <h2>A clone of the classic game Frogger</h2>
+      </header>
+      
+      <ul class="hud">
+        <li class="hud__item">Level<span class="hud__level span--block">1</span></li
+        ><li class="hud__item">Score<span class="hud__score span--block">0</span></li
+        ><li class="hud__item">Time<span class="hud__time span--block">180</span></li
+        ><li class="hud__item">Lives<span class="hud__lives span--block"></span></li
+        ><li class="hud__item" id="audio"><button class="hud__audio-btn" type="button">Audio<span class="hud__audio span--block">on</span></button></li>
+      </ul>
+      
+      <div class="game-window"></div>
+     
+      <footer class="footer">
+        <p class="footer__item"><a class="a--inherit" href="https://github.com/noelnoche/udacity-fend-frogger-clone" target="_blank">GitHub</a></p>
+        <p class="footer__item"><a class="a--inherit" href="https://hellonoel.com" target="_blank">hellonoel.com</a></p>
+      </footer>   
+    </div>
+    
+    <audio id="ouch">
+      <source src="assets/audio/sfx_collision.mp3" type="audio/mp3">
+      <source src="assets/audio/sfx_collision.ogg" type="audio/ogg">
+      Your browser does not support the<code>audio</code> element.
+    </audio>
+    <audio id="blip">  
+      <source src="assets/audio/sfx_blip.mp3" type="audio/mp3">
+      <source src="assets/audio/sfx_blip.ogg" type="audio/ogg">
+    </audio>
+    <audio id="background-music-1">
+      <source src="assets/audio/bgm_daily_beetle.mp3" type="audio/mp3">
+      <source src="assets/audio/bgm_daily_beetle.ogg" type="audio/ogg">
+    </audio>
+    <audio id="background-music-2">
+      <source src="assets/audio/bgm_vivacity.mp3" type="audio/mp3">
+      <source src="assets/audio/bgm_vivacity.ogg" type="audio/ogg">
+    </audio>
+    
+  </body>
+</html>
