@@ -55,10 +55,10 @@ Credits
 + Original game assets and engine by **[Udacity](https://www.udacity.com/)**
 + Original cartridge design by Atari, Inc
 + Game BGM:
-	- "Daily Beetle" Kevin MacLeod **[incompetech.com](incompetech.com)**
-	Licensed under Creative Commons: **[By Attribution 3.0](http://creativecommons.org/licenses/by/3.0/)**
-	- "Vivacity" Kevin MacLeod **[incompetech.com](incompetech.com)**
-	Licensed under Creative Commons: **[By Attribution 3.0](http://creativecommons.org/licenses/by/3.0/)**
+	- "Daily Beetle" Kevin MacLeod **[incompetech.com](https://incompetech.com)**
+	Licensed under Creative Commons: **[By Attribution 3.0](https://creativecommons.org/licenses/by/3.0/)**
+	- "Vivacity" Kevin MacLeod **[incompetech.com](https://incompetech.com)**
+	Licensed under Creative Commons: **[By Attribution 3.0](https://creativecommons.org/licenses/by/3.0/)**
 
 
 License
